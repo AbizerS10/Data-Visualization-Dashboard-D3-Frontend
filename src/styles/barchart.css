@@ -1,0 +1,69 @@
+
+  div#layout {
+    text-align: center;
+  }
+  
+  div#container {
+    background-color: #2F4A6D;
+  }
+  
+  .bar1, .bar2, .bar3, .bar4, .bar5 {
+    fill: #80cbc4;
+  }
+  
+  text {
+    font-size: 14px;
+    fill: #fff;
+  }
+  
+  path {
+    stroke: gray;
+  }
+  
+  line {
+    stroke: gray;
+  }
+  
+  line#limit1, line#limit2, line#limit3, line#limit4, line#limit5 {
+    stroke: #FED966;
+    stroke-width: 3;
+    stroke-dasharray: 3 6;
+  }
+
+  line#average3 {
+    stroke: red;
+    stroke-width: 3;
+  }
+  
+  .grid path {
+    stroke-width: 0;
+  }
+  
+  .grid .tick line {
+    stroke: #9FAAAE;
+    stroke-opacity: 0.3;
+  }
+  
+  text.divergence1, text.divergence2, text.divergence3, text.divergence4, text.divergence5 {
+    font-size: 13px;
+    fill: #f0f0f0;
+  }
+  
+  text.value1, text.value2, text.value3, text.value4, text.value5 {
+    font-size: 13px;
+    font-weight: 100;
+  }
+  
+  text.title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  text.label {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  text.source {
+    font-size: 15px;
+  }

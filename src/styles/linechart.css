@@ -1,0 +1,25 @@
+.wrapper1 {
+    margin: auto;
+    font-size: 16px;
+    color: #2F4A6D;
+    padding-top: 10px;
+  }
+  
+  
+  .wrapper1 text {
+    fill: #2F4A6D;
+    font-size: 10px;
+  }
+  
+  #title {
+    font-size: 20px;
+  }
+
+  #label {
+    font-size: 15px;
+  }
+  
+  .axis1 .domain,
+  .axis1 .xAxis1 line {
+    display: none;
+  }
